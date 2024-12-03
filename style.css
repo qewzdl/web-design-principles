@@ -1,0 +1,193 @@
+body {
+    font-family: "Gabarito", sans-serif;
+
+    position: relative;
+
+    height: 100vh;
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer, header {
+    color: white; 
+    position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+footer, header, .main-content {
+    padding: 0px 0px 0px 25px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container-1 {
+    width: 500px;
+    text-align: justify;
+}
+
+.container-2 {
+    display: grid;
+    padding: 25px;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-row: span 2;
+}
+
+.block {
+    padding: 25px;
+}
+
+.block-bg {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    border-radius: 100% 0px 100% 0px;  
+    background-color: #e8e0ff; 
+    
+    z-index: -1;
+}
+
+.block-1 {
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    border: 1px solid black;
+}
+
+.block-2 {
+    position: relative;
+    border: 1px solid black;
+}
+
+.block-3 {
+    position: relative;
+    border: 1px solid black;
+}
+
+.p-1 {
+    width: 400px;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+}
+
+h3 {
+    display: inline-block;
+
+    font-family: "DM Serif Display", serif;
+    margin-top: 0;
+}
+
+.bg-element {
+    position: absolute; 
+    z-index: -1;
+    width: 500px;
+}
+
+.blob-1 {
+    top: -150px;
+    right: -220px;
+}
+
+.blob-2 {
+    width: 750px;
+    left: -300px;
+}
+
+.blob-3 {
+    top: -100px;
+    right: 500px;
+}
+
+.colors {
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr 1fr;
+}
+
+.color-1 {
+    border-radius: 0px 10px 0px 0px;
+    background-color: #F7FA86;
+}
+
+.color-2 {
+    background-color: #76E7C7;
+}
+
+.color-3 {
+    background-color: #9E7EFF;
+}
+
+.color-4 {
+    background-color: #9C4B9E;
+    border-radius: 0px 0px 0px 10px;
+}
+
+h4 {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.title-3-container {
+    display: inline-block;
+}
+
+.title-3 {
+    margin: 0;
+}
+
+h4 {
+    color: rgb(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.block-header {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.design-image-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-image {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(https://learn.g2.com/hs-fs/hubfs/FI458_Learn_Article_Images-%5BPrinciples_of_design%5D_V1b.png?width=800&name=FI458_Learn_Article_Images-%5BPrinciples_of_design%5D_V1b.png);
+
+    border-radius: 10px 100% 0px 0px;
+}
